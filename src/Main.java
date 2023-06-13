@@ -75,7 +75,7 @@ class Main
     }
     public static void main(String[] args)
     {
-        int[] myArray = { 6, 4, 7, 1, 88,9, -2 };
+        int[] myArray = { 6, 4,-90, 7, 1, 88,9, -2 };
         System.out.println("\n\tМассив до сортировки");
         printArray(myArray);
         heapsort(myArray);
